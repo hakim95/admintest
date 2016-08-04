@@ -1,0 +1,14 @@
+store_api:
+    type: rest
+    resource: StoreBundle:Store
+    name_prefix: api_store_
+
+store_api_product:
+    type: rest
+    resource: StoreBundle:Product
+    name_prefix: api_store_product_
+
+store_api_category:
+    type: rest
+    resource: StoreBundle:Category
+    name_prefix: api_store_category_
